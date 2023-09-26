@@ -1,0 +1,72 @@
+*{
+    text-align:center;
+    font-family:'Raleway';
+    background-color:antiquewhite;
+    color:black;
+}
+
+h1{
+    text-shadow:5px ,5px ,5px ,yellow;
+}
+figure {
+    width:fit-content;
+    margin:auto;
+    margin-top:1cm;
+  
+}
+figcaption{
+    font-size:1.50cm;
+}
+.kebab{
+    width:474px;
+}
+img{
+    height:474px;
+    width:474px;
+    border-radius: 50%;
+}
+.the-pizza figcaption
+{
+ text-shadow:5px,2px,2px,orangered;
+}
+.the-burger figcaption{
+    text-shadow:2px 5px 5px yellow;
+}
+
+.the-shawerma figcaption {
+    text-shadow:2px 5px 5px rgb(157, 209, 52);
+}
+.the-shawemg-img{
+    border:rgb(157, 209, 52) 15px solid;
+    border-radius:50%;
+}
+.the-burger-img{
+    border:yellow 15px solid;
+    border-radius:50%;
+}
+.the-pizza-img
+{
+    border:orangered 15px solid;
+    border-radius:50%;
+}
+.fig-pizza{
+    text-shadow:2px 2px 10px orangered;
+}
+@media screen and (max-width:400px){
+    
+    
+  img{
+    width:200px;
+    height:200px;
+  }
+  *{
+    font-size:1em;
+    text-align:center;
+  }
+  h1{
+     font-size:2em;
+     color:rgb(4, 2, 2);
+     display: block;
+     text-align:center;
+  }
+}
